@@ -1,0 +1,10 @@
+[Unit]
+Description=sleep_power resume event
+After=suspend.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/sleep_power.sh resume
+
+[Install]
+WantedBy=suspend.target

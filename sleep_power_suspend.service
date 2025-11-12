@@ -1,0 +1,10 @@
+[Unit]
+Description=sleep_power suspend event
+Before=suspend.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/sleep_power.sh suspend
+
+[Install]
+WantedBy=suspend.target
