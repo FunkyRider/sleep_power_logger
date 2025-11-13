@@ -1,5 +1,8 @@
-
 # Sleep Power Logger
+
+![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
+![Status](https://img.shields.io/badge/Status-Stable-brightgreen.svg)
+
 A simple Linux shell script to log laptop sleep / resume time, battery energy and calculate power consumption.
 
 ### Usage
